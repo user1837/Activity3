@@ -1,0 +1,87 @@
+img {
+	height: 300px;
+	width: 400px;
+	border: 3px solid black;
+}
+
+body {
+	background-color: lightblue;
+}
+
+h1 {
+	font-family: Garamond;
+	color: #383838;
+}
+
+h2 {
+	font-family: Impact;
+	text-decoration: underline;
+	color: #000066;
+}
+
+p {
+	font-family: cursive;
+	color: #660066;
+}
+
+a {
+	text-decoration: none;
+	color: #003300;
+}
+
+a:hover {
+	color: blue;
+}
+
+ol {
+	border: 1px dashed black;
+}
+
+li {
+	font-family: Verdana;
+	font-size: 20px;
+	color: #FFFF00;
+}
+
+nav ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.active {
+    background-color: DarkOrchid;
+}
+
+section {
+ display: flex;
+ justify-content: space-around;
+}
+
+aside {
+ flex: 1
+ margin: 10px;
+}
+
+article {
+ flex: 4
+ margin: 10px;
+}
